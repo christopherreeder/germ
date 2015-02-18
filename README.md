@@ -57,3 +57,6 @@ DeterminePseudo
 --genomefile "mm10_1.txt" --binsize 10 --infile "tssspec_17_all.txt" --auxfile "" --margfile <marginal bigwig file> --outfile "tssspec_17_all_pvalsaux.txt" --specoutfile "tssspec_17_all_pvals.txt" --minmult 7 --maxmult 100 --multtries 1 --startinc 1 --mininc .001 --pcutoff 0.05 --fdrcutoff 0.1 --numsamps <# lines in non-self read pair file>
  
 The resulting file tssspec_17_all_pvals.txt will contain conditional occupancy events with corrected p-values at the -17 threshold.
+
+Contact
+reeder.c at gmail
